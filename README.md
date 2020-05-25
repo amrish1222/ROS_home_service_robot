@@ -10,7 +10,6 @@ The goal of this project is to program a robot than can map an environment and a
 
 ## Project setup 
 
-
 Install the ROS navigation stack:
 `sudo apt-get install ros-kinetic-navigation`
 
@@ -83,7 +82,7 @@ Run `./home_service.sh` in `scripts` directory to execute the home service robot
 
 ## Mapping 
 
-Is achieved using the gmapping ROS package. It uses Monte-Carlo localization techniques.
+Is achieved using the gmapping ROS package.
 
 ## Localization
 
@@ -91,4 +90,4 @@ Is achieved using the AMCL ROS package. It uses Monte-Carlo localization techniq
 
 ## Navigation
 
-Is achieved using the Move Base ROS Package.
+Is achieved using the ROS navigation stack.
