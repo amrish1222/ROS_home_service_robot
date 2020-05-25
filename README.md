@@ -8,6 +8,8 @@ The goal of this project is to program a robot than can map an environment and a
 - Write a pick_objects node to autonomously command the robot to travel to 2 specific zones: pickup and drop off.
 - Write an add_markers node that subscribes to your robot odometry, keeps track of your robot pose, and creates virtual objects(markers) to rviz.
 
+![home_service_demo](https://github.com/amrish1222/ROS_home_service_robot/blob/master/results/home_service_demo.gif)
+
 ## Project setup 
 
 Install the ROS navigation stack:
